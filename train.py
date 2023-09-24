@@ -33,7 +33,7 @@ dataset = 'polyp'
 train_num = 800  
 max_epoch = 92
 
-model = TransUNet(image_size[0],num_classes) #resnet34_UNet  PSPNet  DeepLabv3  UNet_plus BoTNet TransUNet swin_unet MissFormer CVT_21  res34_swin_MS rest_base
+model = res34_swin_MS (image_size[0],num_classes) #resnet34_UNet  PSPNet  DeepLabv3  UNet_plus BoTNet TransUNet swin_unet MissFormer CVT_21  res34_swin_MS rest_base
 model_name = 'DeepLabv3_polyp'       
 test_model_name = 'MT_polyp84'
 
